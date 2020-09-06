@@ -10,7 +10,7 @@ function start(){
         sec.textContent++
     }
     
-    if(sec.textContent==59){
+    else if(sec.textContent==59){
         sec.textContent=00
         if(min.textContent<9){
             min.textContent='0'+(++min.textContent)
