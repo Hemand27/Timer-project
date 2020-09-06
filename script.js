@@ -10,7 +10,7 @@ function start(){
         sec.textContent++
     }
     
-    if(sec.textContent==59){
+    if(sec.textContent==61){
         sec.textContent=00
         if(min.textContent<9){
             min.textContent='0'+(++min.textContent)
@@ -19,7 +19,7 @@ function start(){
             (min.textContent++)
         }
     }
-    else if(min.textContent==59){
+    else if(min.textContent==60){
         min.textContent=00
         if(hrs.textContent<9){
             hrs.textContent='0'+(++hrs.textContent)
