@@ -6,11 +6,11 @@ var sec=document.getElementById('sec');
 function start(){
     if(sec.textContent<9){
         sec.textContent='0'+(++sec.textContent)
-    }else if(sec.textContent<60){
+    }else if(sec.textContent<61){
         sec.textContent++
     }
     
-    if(sec.textContent==61){
+    if(sec.textContent==60){
         sec.textContent=00
         if(min.textContent<9){
             min.textContent='0'+(++min.textContent)
